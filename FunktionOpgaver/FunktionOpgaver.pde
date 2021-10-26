@@ -3,9 +3,9 @@ String[] names = {"aad","es","ke","jg"};
 
 void setup(){
   size(1000,1000);
-  //arealBeregning(6,2);
-  //checkNames();
-  textSpammer(3);
+  //areaMeasure(6,2);
+  checkNames(names);
+  //textSpammer(3);
   
 }
 
@@ -17,14 +17,14 @@ void draw(){
 
 
 //001
-void arealBeregning(int l, int b){
+void areaMeasure(int l, int b){
  int T = l * b;
  println(T);
 }
 
 //002
-void checkNames (){
- if (names.length > 3){
+void checkNames (String[] x){
+ if (x.length > 3){
   println("There are more than 3 names"); 
  } else {
   println("There is either 3 or less than 3 names"); 
@@ -42,5 +42,4 @@ void textSpammer (int x){
   for (int i=0 ; i < x ; i++){
    println("Im living in your walls"); 
   }
-  
 }

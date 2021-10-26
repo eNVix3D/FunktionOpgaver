@@ -3,15 +3,16 @@ String[] names = {"aad","es","ke","jg"};
 
 void setup(){
   size(1000,1000);
+  
   //areaMeasure(6,2);
   checkNames(names);
   //textSpammer(3);
-  
 }
 
 void draw(){
   clear();
   background(150);
+  
   //drawCircles(10,50,30);
 }
 

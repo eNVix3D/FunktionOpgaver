@@ -1,3 +1,4 @@
+//Nicklas Vagner 2i Funktion Opgaver
 String[] names = {"aad","es","ke","jg"};
 
 void setup(){
